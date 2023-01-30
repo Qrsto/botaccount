@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-01-27 18:38+0100\n"
+"PO-Revision-Date: 2023-01-27 18:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: main.py\n"
+
+#: main.py:67
+msgid "👤 Name:"
+msgstr "👤 Имя:"
+
+#: main.py:67
+msgid "💵 Balance:"
+msgstr "💵 Баланс:"
+
+#: main.py:68
+msgid "🚀 Subscription:"
+msgstr "Подписка 🚀"
+
+#: main.py:76
+msgid "Please insert the amount you want to charge:"
+msgstr "Пожалуйста, введите сумму, которую вы хотите снять:"
+
+#: main.py:99
+msgid "Pay"
+msgstr "Платить"
+
+#: main.py:100
+msgid "Check Payment"
+msgstr "Проверить платеж"
+
+#: main.py:101
+msgid "Back"
+msgstr "Назад"
+
+#: main.py:105
+msgid "Click the button Pay below to top up your account 💵"
+msgstr "Нажмите кнопку Оплатить ниже, чтобы пополнить счет 💵"
+
+#: main.py:132
+msgid "Waiting for payment 🟡"
+msgstr "Жду оплаты 🟡"
+
+#: main.py:135
+msgid "Payment received, but need confirmations 🟡"
+msgstr "Оплата получена, но нужны подтверждения 🟡"
+
+#: main.py:138
+msgid "Payment completed ✅"
+msgstr "Оплата завершена ✅"
+
+#: main.py:146
+#, python-brace-format
+msgid "Thanks for purchase! Your new balance is {new_balance} 💵"
+msgstr "Спасибо за покупку! Ваш новый баланс: {new_balance} 💵"
+
+#: main.py:151
+msgid "Payment failed"
+msgstr "Платеж не прошел"
+
+#: main.py:163
+msgid "You already have a subscription"
+msgstr "У вас уже есть подписка"
+
+#: main.py:166
+msgid "Yes"
+msgstr "Да"
+
+#: main.py:167
+msgid "No"
+msgstr "Нет"
+
+#: main.py:168
+msgid "Top Up"
+msgstr "Пополнить"
+
+#: main.py:171
+msgid "Do you want to subscribe for 10$?"
+msgstr "Хотите подписаться за 10$?"
+
+#: main.py:183
+msgid "You don't have enough balance to subscribe"
+msgstr "У вас недостаточно средств для подписки"
+
+#: main.py:185 main.py:536
+msgid "⬅️ Back"
+msgstr "⬅️ Назад"
+
+#: main.py:185 main.py:573 main.py:588
+msgid "Profile 👤"
+msgstr "Профиль 👤"
+
+#: main.py:188
+#, python-brace-format
+msgid "Your balance is {row[1]}$"
+msgstr "Ваш баланс составляет {row[1]}$"
+
+#: main.py:200
+msgid "You have successfully subscribed"
+msgstr "Вы успешно подписались"
+
+#: main.py:207
+msgid "You have not subscribed"
+msgstr "Вы не подписаны"
+
+#: main.py:232
+msgid "Please enter the string to search for: 🔎"
+msgstr "Введите строку для поиска: 🔎"
+
+#: main.py:240
+msgid "Searching... 🔎, this may take 3 to 5 minutes"
+msgstr "Поиск... 🔎, это может занять от 3 до 5 минут"
+
+#: main.py:246
+msgid "No results found for the string entered"
+msgstr "По введенной строке ничего не найдено"
+
+#: main.py:259
+msgid "Occurrencies for"
+msgstr "Вхождения для"
+
+#: main.py:261
+msgid "Choose if you want to buy Half or All of them"
+msgstr "Выберите, хотите ли вы купить половину или все из них"
+
+#: main.py:284
+msgid "You can only select half or all of the available rows, please try again"
+msgstr ""
+"Вы можете выбрать только половину или все доступные строки. Повторите "
+"попытку."
+
+#: main.py:296 main.py:334
+msgid "Accept"
+msgstr "Принимать"
+
+#: main.py:296 main.py:304 main.py:321 main.py:364
+msgid "Decline"
+msgstr "Отклонить"
+
+#: main.py:296 main.py:305 main.py:367
+msgid "Home"
+msgstr "Дом"
+
+#: main.py:298
+msgid "Price for"
+msgstr "Цена за"
+
+#: main.py:299
+msgid "lines of"
+msgstr "линии"
+
+#: main.py:304 main.py:316
+msgid "Make an offer"
+msgstr "Сделать предложение"
+
+#: main.py:306
+msgid "No price has been found for your query, make an offer or decline"
+msgstr "По вашему запросу цена не найдена, сделайте предложение или отклоните"
+
+#: main.py:320
+msgid "The request has been sent, you will be notified when the owner replies"
+msgstr "Запрос отправлен, вы будете уведомлены, когда владелец ответит"
+
+#: main.py:322
+msgid "You have declined the offer"
+msgstr "Вы отклонили предложение"
+
+#: main.py:348
+msgid "Thank you for your purchase!"
+msgstr "Спасибо за покупку!"
+
+#: main.py:365
+msgid "Thank you for your time!"
+msgstr "Спасибо за ваше время!"
+
+#: main.py:370
+msgid "Please select one of the options"
+msgstr "Пожалуйста, выберите один из вариантов"
+
+#: main.py:373
+msgid "You have to subscribe to get access to the bot"
+msgstr "Вы должны подписаться, чтобы получить доступ к боту"
+
+#: main.py:499
+msgid "Please select your language:"
+msgstr "Пожалуйста, введите сумму, которую вы хотите снять:"
+
+#: main.py:508
+msgid "Language changed to English. Do /start to see the changes."
+msgstr ""
+
+#: main.py:517
+msgid "Language changed to Russian. Do /start to see the changes."
+msgstr "Язык сменился на русский. Сделайте /start, чтобы увидеть изменения."
+
+#: main.py:523
+msgid "Prices: 💵 "
+msgstr "Цена за 💵"
+
+#: main.py:572 main.py:587
+msgid "Get rows 🎯"
+msgstr "Получить ряды 🎯"
+
+#: main.py:573 main.py:589
+msgid "Subscription 🚀"
+msgstr "Подписка 🚀"
+
+#: main.py:574 main.py:590
+msgid "Prices 📊"
+msgstr "Цена за 📊"
+
+#: main.py:574 main.py:591
+msgid "Language 🌐"
+msgstr "Язык 🌐"
+
+#: main.py:575 main.py:592
+msgid "FAQ 📢"
+msgstr "Часто задаваемые вопросы 📢"
+
+#: main.py:583
+msgid "👤 Loaded Lines:"
+msgstr "👤 Загруженные линии:"
+
+#: main.py:583
+msgid "💵 Sold lines:"
+msgstr "💵 Проданные линии:"
+
+#~ msgid "📊 Prices"
+#~ msgstr "📊 Цены"
+
+#~ msgid "🏳️ Language"
+#~ msgstr "🏳️ Язык"
+
+#~ msgid "📢 FAQ"
+#~ msgstr "📢 Часто задаваемые вопросы"
+
+#~ msgid ""
+#~ "👤 Name: {user_name}\n"
+#~ "💵 Balance: {round(user_balance, 2)}$ \n"
+#~ "🚀 Subscription: {user_sub}"
+#~ msgstr ""
+#~ "👤 Имя: {user_name}\n"
+#~ "💵 Баланс: {round(user_balance, 2)}$\n"
+#~ "🚀 Подписка: {user_sub}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "👤 Loaded Lines: {lines}\n"
+#~ "💵 Sold lines: {sold}"
+#~ msgstr ""
+#~ "👤 Загруженные строки: {lines}\n"
+#~ "💵 Проданные линии: {sold}"
