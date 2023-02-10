@@ -21,10 +21,10 @@ from coinbase_commerce.client import Client
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 data = None
-API_KEY = "7301a29f-c9f3-4eb1-9e30-74c33d8d120f"  # HERE COINBASE PAY API KEY
+API_KEY = ""  # HERE COINBASE PAY API KEY
 client = Client(api_key=API_KEY)
 
-bot = Bot(token='5848819002:AAH34QaPJVxcXR7JuXfdRMlb1keqma8ImTs')  # HERE BOT TOKEN
+bot = Bot(token='')  # HERE BOT TOKEN
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 Dispatcher.set_current(dp)
